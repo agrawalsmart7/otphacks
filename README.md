@@ -16,6 +16,9 @@ https://myaccount.google.com/u/1/lesssecureapps?pli=1&pageId=none
   `x:\> cd otp_demo_app`
   `x:\otp_demo_app\> php -S ip:port` You need to remain open until you are testing.  
   
+ # Working Environment 
+ `Python 2.7/Python 3X Can be Windows, Linux`. In linux I didn't try but I am sure it will run.
+  
 # Thoughts
 
 If I got a good reaction on this application then I will work more on this to create more vulnerables stages for these kinds of vulnerabilities. 
