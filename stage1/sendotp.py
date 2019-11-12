@@ -3,7 +3,9 @@ import smtplib
 import sys
 
 
-sender_email =  sys.argv[1]
+recipient_email =  sys.argv[1]
+gmail_username = ""
+gmail_password = ""
 
 
 def generateOTP():
@@ -17,8 +19,8 @@ def generateOTP():
 def send_otp_to_mail(otp):
 
 	with smtplib.SMTP_SSL("smtp.gmail.com", "465") as smtp:
-		smtp.login("", "")
-		smtp.sendmail("", sender_email, "Hello there, your test OTP is "+otp)
+		smtp.login(gmail_username, gmail_password)
+		smtp.sendmail(gmail_username, recipient_email, "Hello there, your test OTP is "+otp)
 		smtp.quit()
 
 	with open("data.txt", 'w') as file:
