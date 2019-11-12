@@ -4,17 +4,17 @@ This repository contains the application which will give you the hackable demo e
 
 # Pre-Requirements
 
-1. You have to give you **Gmail** Username credentials.
+1. You have to give you **Gmail** Username credentials. For now you need to give your credentials 2 times, in **sendotp.py** in different satges i.e. 1 & 2. I am working on it will updates this soon.
 
 2. You may face some error like below
-`(535, b'5.7.8 Username and Password not accepted` Below how you can do that.
+`(535, b'5.7.8 Username and Password not accepted`. Below is the Solution.
 
 You need to activate Less secure apps in your accounts. Below is the link which will take you on that way.
 https://myaccount.google.com/u/1/lesssecureapps?pli=1&pageId=none
 
 3. I tested this application on the PHP server like below
   `x:\> cd otp_demo_app`
-  `x:\otp_demo_app\> php -S ip:port` You need to remain open until you are testing.
+  `x:\otp_demo_app\> php -S ip:port` You need to remain open until you are testing.  
   
 # Thoughts
 
