@@ -3,7 +3,10 @@ import smtplib
 import sys
 
 
-sender_email = sys.argv[1]
+recipient_email = sys.argv[1]
+gmail_username = ""
+gmail_password = ""
+
 
 
 def generateOTP():
@@ -20,8 +23,8 @@ def send_otp_to_mail(otp):
 	try:
 
 		with smtplib.SMTP_SSL("smtp.gmail.com", "465") as smtp:
-			smtp.login("", "")
-			smtp.sendmail("", sender_email, "Hello there, you test2 OTP is "+otp)
+			smtp.login(gmail_username, gmail_password)
+			smtp.sendmail(gmail_username, recipient_email, "Hello there, you test2 OTP is "+otp)
 			smtp.quit()
 			
 	except 	Exception as e:
