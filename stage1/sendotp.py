@@ -1,5 +1,4 @@
 import math, random
-from twilio.rest import Client
 import smtplib
 import sys
 
@@ -19,7 +18,7 @@ def send_otp_to_mail(otp):
 
 	with smtplib.SMTP_SSL("smtp.gmail.com", "465") as smtp:
 		smtp.login("", "")
-		smtp.sendmail("", sender_email, "Hello there, you test2 OTP is "+otp)
+		smtp.sendmail("", sender_email, "Hello there, your test OTP is "+otp)
 		smtp.quit()
 
 	with open("data.txt", 'w') as file:
