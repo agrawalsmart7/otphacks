@@ -16,7 +16,7 @@ def blockingIP(remoteaddr):
 		countnum = counts.count(remoteaddr)
 		
 		
-		if countnum > 20:
+		if countnum > 200:
 			block_ips.append(remoteaddr)
 	
 		
