@@ -1,4 +1,4 @@
-# otp_demo_app
+# otp_vulnerable_app
 
 This repository contains the application which will give you the hackable demo environment of OTP Application. You can use your hack technique on this application. Also the scope of this application is very small right now, its just focuses on OTP hack techniques, also you may encounter some XSS scnerios and more which you can ignore them or you can exploit those for getting more view (but those are out of scope).
 
@@ -19,8 +19,8 @@ You need to activate Less secure apps in your accounts. Below is the link which 
 https://myaccount.google.com/u/1/lesssecureapps?pli=1&pageId=none
 
 3. I tested this application on the PHP server like below
-  `x:\> cd otp_demo_app`
-  `x:\otp_demo_app\> php -S ip:port` You need to remain open until you are testing.  
+  `x:\> cd otp_vulnerable_app`
+  `x:\otp_vulnerable_app\> php -S ip:port` You need to remain open until you are testing.  
   
 4. If somehow you are not getting the OTP you may need to debug `sendotp.py` file which you may needs a some python knowledge. 
   
