@@ -29,7 +29,7 @@ https://myaccount.google.com/u/1/lesssecureapps?pli=1&pageId=none
   
 # Thoughts
 
-If I got a good reaction on this application then I will work more on this to create more vulnerables stages.
+If I got a good reaction on this application then I will work more on this to create more vulnerables stages with more advance features. If you want to work with me then DM me right away.
 
 # Feedback/Issues
 
