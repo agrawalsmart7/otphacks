@@ -2,6 +2,12 @@
 
 This repository contains the application which will give you the hackable demo environment of OTP Application. You can use your hack technique on this application. Also the scope of this application is very small right now, its just focuses on OTP hack techniques, also you may encounter some XSS scnerios and more which you can ignore them or you can exploit those for getting more view (but those are out of scope).
 
+Stages
+======
+
+The stage includes simple method as well as a little difficult method. It includes requests blocking stuffs.
+
+
 # Pre-Requirements
 
 1. You have to give you **Gmail** Username credentials. For now you need to give your credentials 2 times, in **sendotp.py** in different satges i.e. 1 & 2. I am working on it will updates this soon.
@@ -15,6 +21,8 @@ https://myaccount.google.com/u/1/lesssecureapps?pli=1&pageId=none
 3. I tested this application on the PHP server like below
   `x:\> cd otp_demo_app`
   `x:\otp_demo_app\> php -S ip:port` You need to remain open until you are testing.  
+  
+4. If somehow you are not getting the OTP you may need to debug `sendotp.py` file which you may needs a some python knowledge. 
   
  # Working Environment 
  `Python 2.7/Python 3X Can be Windows, Linux`. In linux I didn't try but I am sure it will run.
