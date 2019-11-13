@@ -18,8 +18,8 @@ The stage includes simple method as well as a little difficult method. One of th
 You need to activate Less secure apps in your accounts. Below is the link which will take you on that way.
 https://myaccount.google.com/u/1/lesssecureapps?pli=1&pageId=none
 
-3. I tested this application on the PHP server like below
-  `x:\> cd otp_vulnerable_app`
+3. I tested this application on the PHP server like below<br>
+  `x:\> cd otp_vulnerable_app`<br>
   `x:\otp_vulnerable_app\> php -S ip:port` You need to remain open until you are testing.  
   
 4. If somehow you are not getting the OTP you may need to debug `sendotp.py` file which you may needs a some python knowledge. 
