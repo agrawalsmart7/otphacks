@@ -5,7 +5,7 @@ This repository contains the application which will give you the hackable demo e
 Stages
 ======
 
-The stage includes simple method as well as a little difficult method. It includes requests blocking stuffs.
+The stage includes simple method as well as a little difficult method. One of the stage includes **IP Blocking**.
 
 
 # Pre-Requirements
