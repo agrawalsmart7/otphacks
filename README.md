@@ -33,7 +33,7 @@ If I got a good reaction on this application then I will work more on this to cr
 
 # Feedback/Issues
 
-If you encounter any issues please let me know. And also if you have any suggestion regarding this application like how we can create it more advance or something else, I would like to hear those too.
+If you encounter any issues please let me know. And also if you have any suggestion regarding this application like how we can create it more advance or something else like any **code related**, I would really like to hear it.
 
 And don't forget to send me a feedback.
 
