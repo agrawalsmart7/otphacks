@@ -3,7 +3,7 @@
 $email = $_GET['Email'];
 if (isset($email)){
 	
-	$command = "python3 sendotp.py $email";
+	$command = "sendotp.py $email";
 	exec($command);
 	
 

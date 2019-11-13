@@ -11,9 +11,10 @@
 
 <?php
 
-$otp = $_GET['OTP'];
+$otp = @$_GET['OTP'];
 
 if (isset($otp)){
+	
 	echo ("You have provided this $otp<br>");
 	$command = "python verifyotp.py";
 	$data = exec($command);
